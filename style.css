@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  color: darkslategrey;
+}
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:white;
+  padding: 30px;
+
+}
+
+.tareasList {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+form {
+  display: block;
+}
+
+input {
+  padding: 15px 10px;
+  margin: 10px 0px;
+  width: 400px;
+  outline: none;
+}
+
+.prioridad {
+  width: 370px;
+  color: darkslategrey;
+  padding: 10px 10px;
+}
+.btn-add {
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  font-size: 1.32rem;
+  outline: none;
+}
+
+.empty {
+  color: darkslategrey;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: block;
+  height: auto;
+}
+
+li h3 {
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+  color: black;
+}
+li p {
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+  color: black;
+}
+
+.btn-delete {
+  float: right;
+  border: none;
+  background-color:peru;
+  color: beige;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 10%;
+  font-size: 1.2rem;
+
+}
+
+.btn-delete:hover {
+  background-color: lightseagreen;
+  cursor: pointer;
+}
